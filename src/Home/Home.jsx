@@ -169,7 +169,8 @@ function Home() {
           data-aos="fade-up"
           className="mt-3 text-lg md:text-3xl font-serif font-bold lg:text-white tracking-wide animate-fade-up delay-1500"
         >
-          Deputy Manager - Accounts & Finance Mahmood Group of Industries
+          DEPUTY MANAGER - ACCOUNTS & FINANCE <br />
+          Mahmood Group of Industries
         </h1>
 
         {/* <p
