@@ -96,7 +96,7 @@ function Home() {
     },
     {
       icon: <MdManageAccounts size={18} />,
-      label: "External & Internal Audits Forensic & Cost Audits",
+      label: "AP / AR & Reconciliations",
       color: "from-emerald-400 to-teal-500",
       target: "clients",
     },
@@ -169,7 +169,7 @@ function Home() {
           data-aos="fade-up"
           className="mt-3 text-lg md:text-3xl font-serif font-bold lg:text-white tracking-wide animate-fade-up delay-1500"
         >
-          AUDIT SUPERVISOR - NEXIA INTERNATIONAL
+          Deputy Manager - Accounts & Finance Mahmood Group of Industries
         </h1>
 
         {/* <p

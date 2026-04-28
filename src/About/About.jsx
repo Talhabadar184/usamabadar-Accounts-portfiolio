@@ -10,8 +10,13 @@ const About = () => {
           <h2 className="text-2xl font-semibold mb-2 border-b-2 border-blue-700 inline-block">Who am I ?</h2>
           <h3 className="mt-4 text-lg font-medium">Chartered Accountant (Finalist)</h3>
           <p className="mt-2 text-sm text-gray-600 text-justify">
-  As a CA Finalist and Audit Supervisor at Nexia International (Riaz Ahmad and Co. Chartered Accountants), I bring over four years of extensive experience in external auditing, specializing in conducting financial audits across various industries in compliance with IFRS and forensic audits. My role involves ensuring the accuracy and integrity of financial statements, while providing critical insights to clients on their financial reporting processes. I have had the opportunity to lead audit teams, where I took on the role of Audit Team Lead, effectively managing my team under pressure and ensuring the successful completion of audit engagements with tight deadlines.
-  I have also served as an Internal Auditor, where I was responsible for preparing in-depth Business Process Re-engineering (BPR), Internal audit reports, conducting gap analyses, and offering recommendations to enhance internal controls and align practices with industry standards.
+  As a CA Finalist and Deputy Manager – Accounts & Finance at Mahmood Group of Industries, I bring over four years of diverse experience spanning external audit and corporate finance within multi-entity environments. Currently, I oversee end-to-end finance operations within a shared services framework, managing financial reporting, general ledger integrity, and working capital optimization across retail, F&B, and agriculture sectors.
+
+My role involves preparation and analysis of IFRS-compliant financial statements, driving monthly reporting and variance analysis to support strategic decision-making. I lead core finance functions including procure-to-pay (P2P), accounts receivable, treasury, and cash flow planning, while ensuring robust internal controls and process standardization across entities.
+
+Leveraging my prior experience with Nexia International, I bring a strong foundation in audit, risk assessment, and internal controls, enabling me to enhance financial governance and operational efficiency. I actively collaborate with cross-functional teams to streamline processes, implement SOPs, and improve reporting accuracy in dynamic, high-pressure environments.
+
+I am recognized for my analytical mindset, leadership capabilities, and ability to bridge audit rigor with practical finance operations, delivering value-driven insights and sustainable process improvements.
 </p>
 
 <a
