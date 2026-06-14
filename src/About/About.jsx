@@ -13,6 +13,8 @@ const About = () => {
   As a CA Finalist and Deputy Manager – Accounts & Finance at Mahmood Group of Industries, I bring over four years of diverse experience spanning external audit and corporate finance within multi-entity environments. Currently, I oversee end-to-end finance operations within a shared services framework, managing financial reporting, general ledger integrity, and working capital optimization across retail, F&B, and agriculture sectors.
 
 My role involves preparation and analysis of IFRS-compliant financial statements, driving monthly reporting and variance analysis to support strategic decision-making. I lead core finance functions including procure-to-pay (P2P), accounts receivable, treasury, and cash flow planning, while ensuring robust internal controls and process standardization across entities.
+<br/>
+<br/>
 
 Leveraging my prior experience with Nexia International, I bring a strong foundation in audit, risk assessment, and internal controls, enabling me to enhance financial governance and operational efficiency. I actively collaborate with cross-functional teams to streamline processes, implement SOPs, and improve reporting accuracy in dynamic, high-pressure environments.
 
@@ -20,7 +22,7 @@ I am recognized for my analytical mindset, leadership capabilities, and ability 
 </p>
 
 <a
-  href="/Usama Badar CV (1).pdf"
+  href="/UsamaBadar.pdf"
   download
   className="mt-4 inline-block px-5 py-2 border border-blue-700 text-blue-700 transition-all duration-300 hover:text-lg hover:bg-blue-800 hover:text-white  rounded"
 >

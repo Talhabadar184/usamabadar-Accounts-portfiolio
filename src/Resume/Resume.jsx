@@ -241,21 +241,21 @@ import React from "react";
 
 const experience = [
   {
-    date: "Dec 2025 – Present",
-    role: "Audit Supervisor-Nexia International",
+    date: "Oct 2025 - Present",
+    role: "DM Accounts & Finance - Mahmood Group of Industries ",
     points: [
-      "Led and supervised multiple statutory audit engagements for large and complex clients across manufacturing, retail, insurance, banking, textile, oil & gas, and services sectors.",
-      "Planned engagements end-to-end including scoping, resource allocation, risk assessment, materiality determination, and audit strategy development using a risk-based approach.",
-      "Reviewed financial statements and group consolidations for compliance with IFRS and local regulatory requirements, including application of IFRS 9, 15, 16 and consolidation standards (IFRS 3 & 10).",
-      "Directed and reviewed audit fieldwork and working papers, ensuring compliance with ISA and firm quality control standards before manager and partner review.",
-      "Evaluated internal control frameworks, identified control gaps, and issued practical recommendations to strengthen governance and financial reporting reliability.",
-      "Coordinated closely with client senior management and audit committees, presenting key audit findings and resolving complex accounting and reporting matters.",
-      "Supervised, coached, and trained audit staff, improving team performance and ensuring timely completion of deliverables within budget.",
+      "Managed end-to-end finance operations for multi-sector entities - Beyond East (Retail), Passion Foods (F&B) and MG Agri (Agriculture) - within a shared services department, ensuring accuracy, streamline operations, standardization and timely reporting.",
+      "Led Accounts Payable & Receivable functions including full Procure-to-Pay (P2P) cycle, vendor management, collections and payment execution for both CAPEX and operational expenditures.",
+      "Performed retail outlet and e-commerce reconciliations, ensuring alignment of POS sales, online platforms and bank receipts with accounting records.",
+      "Prepared and presented monthly financial statements (P&L, Balance Sheet, Cash Flows) along with variance analysis to support management decision-making.",
+      "Oversaw general ledger integrity and financial reporting, ensuring compliance with IFRS and internal control frameworks aligned with regulatory expectations.",
+      "Managed cash flow planning and treasury operations, optimizing working capital while ensuring timely vendor payments and operational liquidity.",
+      "Supervised and managed with cross-functional teams (operations, procurement, and management) in shared services department to streamline financial processes and reporting",
     ],
   },
   {
-    date: "Apr 2024 – Dec 2025",
-    role: "Audit Senior-Nexia International",
+    date: "Apr 2024 – Sep 2025",
+    role: "Audit Supervisor - Nexia International ",
     points: [
       "Took overall responsibility for planning, execution, and completion of audit engagements for large and complex clients.",
       "Prepared and reviewed complete sets of financial statements, including notes to the accounts, in accordance with IFRS and local regulatory requirements.",

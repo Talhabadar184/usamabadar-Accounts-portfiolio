@@ -170,7 +170,7 @@ function Home() {
           className="mt-3 text-lg md:text-3xl font-serif font-bold lg:text-white tracking-wide animate-fade-up delay-1500"
         >
           DEPUTY MANAGER - ACCOUNTS & FINANCE <br />
-          Mahmood Group of Industries
+          MAHMOOD GROUP OF INDUSTRIES
         </h1>
 
         {/* <p
@@ -182,7 +182,7 @@ function Home() {
   </p> */}
 
         <a
-          href="/Usama Badar CV (1).pdf"
+          href="/UsamaBadar.pdf"
           print
           className="hover:cursor-pointer mt-6 transition-all duration-300 hover:text-lg  w-fit bg-blue-700  text-white px-5 py-2 md:px-6 md:py-3 rounded-full flex items-center gap-2 shadow-lg animate-fade-up delay-300"
         >
