@@ -219,6 +219,9 @@
 
 // export default Resume;
 import React from "react";
+import riazahmad from "../assets/Resume/Riaz.jpeg";
+import mehmood from "../assets/Resume/MG.jpeg"
+import ndf from "../assets/Resume/ndf.png"
 
 // const skills = [
 //   { name: "International Financial Reporting Standards", level: "95%" },
@@ -242,20 +245,29 @@ import React from "react";
 const experience = [
   {
     date: "Oct 2025 - Present",
-    role: "DM Accounts & Finance - Mahmood Group of Industries ",
+    role: "Manager Accounts & Finance - Mahmood Group of Industries ",
+    logo: mehmood,
     points: [
-      "Managed end-to-end finance operations for multi-sector entities - Beyond East (Retail), Passion Foods (F&B) and MG Agri (Agriculture) - within a shared services department, ensuring accuracy, streamline operations, standardization and timely reporting.",
-      "Led Accounts Payable & Receivable functions including full Procure-to-Pay (P2P) cycle, vendor management, collections and payment execution for both CAPEX and operational expenditures.",
-      "Performed retail outlet and e-commerce reconciliations, ensuring alignment of POS sales, online platforms and bank receipts with accounting records.",
-      "Prepared and presented monthly financial statements (P&L, Balance Sheet, Cash Flows) along with variance analysis to support management decision-making.",
-      "Oversaw general ledger integrity and financial reporting, ensuring compliance with IFRS and internal control frameworks aligned with regulatory expectations.",
-      "Managed cash flow planning and treasury operations, optimizing working capital while ensuring timely vendor payments and operational liquidity.",
-      "Supervised and managed with cross-functional teams (operations, procurement, and management) in shared services department to streamline financial processes and reporting",
+      "Managed end-to-end finance operations for multi-sector entities—Beyond East (Retail), Passion Foods (Food & Beverage), and MG Agri (Agriculture)—within a shared services environment, ensuring standardized processes, operational efficiency, financial accuracy, and timely reporting.",
+      "Led the Accounts Payable (AP) and Accounts Receivable (AR) functions, overseeing the complete Procure-to-Pay (P2P) and Order-to-Cash (O2C) cycles, including vendor onboarding, customer collections, payment execution, credit control, and reconciliation of CAPEX and operating expenditures.",
+      "Prepared monthly, quarterly, and annual financial statements, including the Statement of Financial Position, Statement of Profit or Loss, Statement of Cash Flows, and supporting schedules, with detailed variance analysis and management commentary.",
+      "Oversaw general ledger management, month-end and year-end closing activities, journal entries, accruals, prepayments, and account reconciliations, ensuring compliance with IFRS and organizational accounting policies.",
+      "Managed cash flow forecasting and treasury operations, optimizing working capital, monitoring liquidity requirements, and ensuring timely settlement of vendor obligations and statutory payments.",
+      "Performed retail outlet and e-commerce reconciliations by matching POS transactions, online marketplace sales, payment gateway settlements, and bank receipts with accounting records to ensure revenue completeness and accuracy.",
+      "Collaborated with operations, procurement, HR, and senior management to streamline financial processes, strengthen internal controls, and improve reporting efficiency across the shared services function.",
+      "Assisted in the preparation of annual budgets, periodic forecasts, and financial projections while monitoring budget utilization and analyzing key business variances.",
+      "Monitored and analyzed financial performance through KPIs, profitability analysis, margin reporting, and cost control initiatives, providing actionable insights to support strategic business decisions.",
+      "Ensured compliance with applicable IFRS, corporate governance requirements, tax regulations, and internal control frameworks while maintaining accurate financial records and supporting statutory obligations.",
+      "Coordinated internal and external audits by preparing audit schedules, supporting documentation, and resolving audit queries to facilitate timely completion of audit engagements.",
+      "Identified opportunities for process automation and continuous improvement, enhancing operational efficiency, reducing manual effort, and strengthening financial reporting controls.",
+      "Utilized ERP systems and advanced Microsoft Excel to automate reconciliations, generate management reports, and improve the accuracy and efficiency of financial reporting.",
+      "Mentored and supervised finance team members, delegated responsibilities, reviewed work outputs, and promoted adherence to accounting policies, deadlines, and quality standards.",
     ],
   },
   {
     date: "Apr 2024 – Sep 2025",
     role: "Audit Supervisor - Nexia International ",
+    logo: riazahmad,
     points: [
       "Took overall responsibility for planning, execution, and completion of audit engagements for large and complex clients.",
       "Prepared and reviewed complete sets of financial statements, including notes to the accounts, in accordance with IFRS and local regulatory requirements.",
@@ -273,6 +285,7 @@ const experience = [
   {
     date: "Mar 2023 – Apr 2024",
     role: "Audit Semi Senior – Nexia International",
+    logo: riazahmad,
     points: [
     "Supervised small audit teams during engagements, reviewing the work performed by audit associates and ensuring quality standards were maintained.",
     "Performed risk assessments, designed audit procedures, and executed audit programs independently for assigned sections.",
@@ -292,6 +305,7 @@ const experience = [
   {
     date: "Jan 2022 – Mar 2023",
     role: "Audit Associate – Nexia International",
+    logo: riazahmad,
     points: [
     "Assisted in performing external audits of clients in various industries under the direct supervision of seniors and managers.",
     "Carried out substantive testing on financial statement items such as cash and bank, receivables, payables, inventory, and fixed assets.",
@@ -308,6 +322,7 @@ const experience = [
   {
     date: "Oct 2021 – Dec 2021",
     role: "Accounts Intern – Nishat Linen (PVT) Limited",
+    logo: ndf,
     points: [
       "Handled expense booking, journal voucher entries, and bank payment processing for rent and advertisement expenses.",
       "Conducted stock count observations and recorded financial transactions through double entries on Oracle.",
@@ -316,7 +331,7 @@ const experience = [
 ];
 
 const education = [
-  { date: "2019 – Present", role: "CA  - ICAP (Part Qualified / Finalist)", desc: "CA Finalist at Institute of Chartered Accountants of Pakistan (ICAP) with 2 papers remaining." },
+  { date: "2019 – Present", role: "CA  - ICAP (Part Qualified / Finalist)", desc: "CA Finalist at Institute of Chartered Accountants of Pakistan (ICAP) with 1 paper remaining." },
   // { date: "2019 – 2021", role: "CAF – CA Intermediate", desc: "Institute of Chartered Accountants of Pakistan. Completed Certificate in Accounting and Finance in 2.5 years and commenced CA Articleship at Nexia International." },
   { date: "2019 – Ongoing", role: "ACCA (Part Qualified / Finalist)", desc: "Association of Certified Chartered Accountants. Granted exemption from 8 papers based on CA Pakistan qualifications." },
   { date: "(BSAF - 2026)", role: "Bachelor of Science in Accounting & Finance", desc: "Completing my bachelor's degree in Accounting & Finance from Lahore Leads University, Pakistan." },
@@ -324,12 +339,14 @@ const education = [
   { date: "2015 – 2016", role: "High School (Grade 9–10)", desc: "Punjab Board of Intermediate and Secondary Education. Ranked top 3 in class throughout schooling, achieving 85% in board examinations." },
 ];
 
-const Entry = ({ date, role, children, isLast }) => (
+const Entry = ({ date, role,logo, children, isLast }) => (
   <div className={`grid grid-cols-1 sm:grid-cols-[190px_1fr] gap-1 sm:gap-6 py-4 sm:py-5 ${!isLast ? "border-b border-gray-200" : ""}`}>
     <div>
           <p className="text-blue-700 text-sm font-medium mt-0.5">{role}</p>
 
       <p className="text-blue-700 text-sm font-medium">{date}</p>
+              <img src={logo}  className="w-42 h-22 object-cover rounded-full mt-7" />
+
     </div>
     <div className="text-sm text-gray-600 leading-relaxed mt-1 sm:mt-0">{children}</div>
   </div>
@@ -348,15 +365,15 @@ const Resume = () => (
       <span className="text-blue-700">My</span> Resume
     </h2>
 
-    <SectionBlock title="Experience">
-      {experience.map((e, i) => (
-        <Entry key={i} date={e.date} role={e.role} isLast={i === experience.length - 1}>
-          <ul className="list-disc pl-4 space-y-1">
-            {e.points.map((p, j) => <li key={j}>{p}</li>)}
-          </ul>
-        </Entry>
-      ))}
-    </SectionBlock>
+     <SectionBlock title="Experience">
+        {experience.map((e, i) => (
+          <Entry key={i} date={e.date} role={e.role} logo={e.logo} isLast={i === experience.length - 1}>
+            <ul className="list-disc pl-4 space-y-1 justify-between">
+              {e.points.map((p, j) => <li key={j}>{p}</li>)}
+            </ul>
+          </Entry>
+        ))}
+      </SectionBlock>
 
     <SectionBlock title="Education">
       {education.map((e, i) => (

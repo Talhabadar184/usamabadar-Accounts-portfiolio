@@ -18,7 +18,7 @@ import services_foot from "../assets/Clients/services_foot.svg";
 import Maple from "../assets/Clients/Maple.svg";
 import adam from "../assets/Clients/adam.svg";
 import docs from "../assets/Clients/docs.svg";
-import be from "../assets/Clients/beyond east.png";
+import be from "../assets/Clients/BE.png";
 import passion from "../assets/Clients/passion.jpeg";
 import mg from "../assets/Clients/mg.png";
 import { motion } from "framer-motion";
@@ -27,40 +27,46 @@ import { useState } from "react";
 // ─── Mahmood Group Projects ───────────────────────────────────────────────────
 const mahmoodProjects = [
   {
-    title: "Beyond East (Masood Retail Pvt Limited)",
+    title: "Beyond East (Masood Retail Pvt. Ltd.) – Retail",
     subtitle: "Statutory Audit - Annual",
     image: be,
     description: `
-      • Led the annual statutory audit of Beyond East (Masood Retail Pvt Limited), ensuring compliance with IFRS and SECP regulatory guidelines.\n
-      • Led the audit team throughout the engagement, from planning to completion, ensuring timely execution of audit procedures, effective team coordination, and delivery of quality audit deliverables within reporting deadlines.\n
-      • Prepared the complete set of financial statements, including the Statement of Financial Position, Profit or Loss and Other Comprehensive Income, Statement of Cash Flows, Statement of Changes in Equity, and related notes, ensuring accuracy, consistency, and compliance with IFRS and Companies Act, 2017.\n
-      • Took ownership of the audit of contingencies and commitments, including legal claims, tax exposures, and guarantees, by reviewing legal correspondence, board meeting minutes, and representations from management.\n
-      • Evaluated management's assessments and disclosures related to contingent liabilities under IAS 37 – Provisions, Contingent Liabilities, and Contingent Assets, ensuring sufficient audit evidence and appropriate accounting treatment.\n
-      • Collaborated with internal and external legal counsel to assess the likelihood and financial impact of ongoing litigations and regulatory matters.\n
-      • Prepared the audit report and management letter, summarizing key issues, control observations, and value-adding recommendations.\n
+      • Managed the complete finance and accounting function for a multi-brand retail business, ensuring accurate financial reporting and compliance with IFRS and statutory requirements.\n
+      • Oversaw retail accounting across multiple outlets, including sales accounting, POS reconciliations, inventory accounting, and daily cash and bank reconciliations.\n
+      • Monitored inventory movements, stock valuation, gross margins, and shrinkage analysis to strengthen inventory controls and improve profitability.\n
+      • Managed Accounts Payable and Accounts Receivable functions, ensuring timely vendor payments, customer collections, and effective working capital management.\n
+      • Prepared monthly management accounts, budget variance reports, profitability analysis, and MIS reports to support strategic business decisions.\n
+      • Coordinated with procurement, warehouse, operations, and retail teams to strengthen financial controls and streamline business processes.\n
+      • Supervised month-end and year-end closing activities, ensuring timely preparation of financial statements and management reports.\n
     `,
     link: "https://www.beyondeast.com/?srsltid=AfmBOopbHAkXPmqOunZ_xUtVKIRAT1mmAxIaVIckoP00nM2jdopd9QM6",
   },
   {
-    title: "Passion Foods (Pvt) Limited",
+    title: "Passion Foods Pvt. Ltd. – Food & Beverage (Subway Franchise & Bakery Operations)",
     subtitle: "Statutory Audit - Annual",
     image: passion,
     description: `
-      • Led the end-to-end statutory audit of Passion Foods (Pvt) Limited.\n
-      • Prepared the complete set of financial statements, including disclosures for contingent liabilities and other critical notes as per IFRS and applicable regulations.\n
-      • Conducted risk assessments and implemented audit procedures tailored to the entity's complexities, enhancing reliability of financial reporting.\n
+      • Managed finance operations for a food and beverage business operating Subway franchise restaurants and bakery outlets, ensuring accurate accounting and financial compliance.\n
+      • Oversaw restaurant and bakery revenue accounting, including POS reconciliations, food cost analysis, inventory controls, wastage monitoring, and daily sales reporting.\n
+      • Monitored recipe costing, gross profit margins, operating expenses, and outlet profitability to support pricing and operational decisions.\n
+      • Managed supplier payments, procurement accounting, payroll-related reconciliations, and operational expenditure controls across multiple outlets.\n
+      • Prepared monthly financial statements, cash flow forecasts, budget variance analysis, and management reports for senior leadership.\n
+      • Implemented financial controls to safeguard inventory, cash collections, and operational assets while improving process efficiency.\n
+      • Collaborated with operations and procurement teams to optimize food costs, improve cost efficiency, and enhance financial performance.\n
     `,
     link: "https://www.linkedin.com/company/passion-foods/?originalSubdomain=pk",
   },
   {
-    title: "MG Agri Foods (Pvt) Limited",
+    title: "MG Agri Foods Pvt. Ltd. – Agricultural Exports",
     subtitle: "Statutory Audit - Annual",
     image: mg,
     description: `
-      • Managed the statutory audit of MG Agri Foods (Pvt) Limited.\n
-      • Prepared the financial statements, ensuring accurate recognition of balances in compliance with Companies Act, 2017 and relevant financial reporting standards.\n
-      • Collaborated with cross-functional teams to reconcile intercompany balances and disclosures, ensuring completeness and accuracy.\n
-      • Played a key role in establishing initial financial reporting frameworks and control procedures.\n
+      • Managed accounting and financial operations for an agricultural export business dealing in seasonal produce, ensuring compliance with financial reporting and export documentation requirements.\n
+      • Oversaw export sales accounting, foreign customer receivables, supplier payments, and reconciliation of export-related transactions.\n
+      • Managed inventory valuation, procurement accounting, cost allocation, and profitability analysis for agricultural products.
+      • Prepared financial statements, management reports, budgets, forecasts, and variance analysis to support business planning and decision-making.\n
+      • Coordinated with procurement, logistics, and export teams to ensure accurate accounting of inventory movements, shipping costs, and export-related expenses.\n
+      • Strengthened internal controls, streamlined accounting processes, and ensured compliance with tax regulations, IFRS, and corporate reporting requirements.\n
     `,
     link: "https://mgagrifoods.com/",
   },
@@ -356,7 +362,7 @@ const ProjectCard = ({ project, index, showCategory = false }) => (
     <img
       src={project.image}
       alt={project.title}
-      className=" h-42 object-fill rounded-t-lg"
+      className=" h-42 object-fill  rounded-t-lg"
     />
     <h2 className="text-1xl font-bold mt-4">{project.title}</h2>
     <h2 className="text-1xl font-bold mt-4">{project.subtitle}</h2>

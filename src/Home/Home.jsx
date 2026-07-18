@@ -162,14 +162,14 @@ function Home() {
           data-aos="fade-up"
           className="mt-2 text-lg font-serif md:text-3xl font-bold text-grey-500 transition-opacity duration-1000 delay-1000 ease-in-out"
         >
-          CA (F) ACCA (F)
+          CA - FINALIST (20/21) | ACCA - PART QUALIFIED
         </h1>
 
         <h1
           data-aos="fade-up"
           className="mt-3 text-lg md:text-3xl font-serif font-bold lg:text-white tracking-wide animate-fade-up delay-1500"
         >
-          DEPUTY MANAGER - ACCOUNTS & FINANCE <br />
+          MANAGER - ACCOUNTS & FINANCE <br />
           MAHMOOD GROUP OF INDUSTRIES
         </h1>
 

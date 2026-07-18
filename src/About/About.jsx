@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="text-2xl font-semibold mb-2 border-b-2 border-blue-700 inline-block">Who am I ?</h2>
           <h3 className="mt-4 text-lg font-medium">Chartered Accountant (Finalist)</h3>
           <p className="mt-2 text-sm text-gray-600 text-justify">
-  As a CA Finalist and Deputy Manager – Accounts & Finance at Mahmood Group of Industries, I bring over four years of diverse experience spanning external audit and corporate finance within multi-entity environments. Currently, I oversee end-to-end finance operations within a shared services framework, managing financial reporting, general ledger integrity, and working capital optimization across retail, F&B, and agriculture sectors.
+  As a CA Finalist (20/21) and Manager – Accounts & Finance at Mahmood Group of Industries, I bring over four years of diverse experience spanning external audit and corporate finance within multi-entity environments. Currently, I oversee end-to-end finance operations within a shared services framework, managing financial reporting, general ledger integrity, and working capital optimization across retail, F&B, and agriculture sectors.
 
 My role involves preparation and analysis of IFRS-compliant financial statements, driving monthly reporting and variance analysis to support strategic decision-making. I lead core finance functions including procure-to-pay (P2P), accounts receivable, treasury, and cash flow planning, while ensuring robust internal controls and process standardization across entities.
 <br/>
@@ -59,9 +59,15 @@ I am recognized for my analytical mindset, leadership capabilities, and ability 
             </div>
             <div>
               <h4 className="flex items-center gap-2 text-lg font-medium">
-              Financial Auditing and Assurance
+             Month end and year end closing
               </h4>
-              <p className="text-sm text-gray-600">Audit Strategy and Development, Regulatory Compliance and Reporting, Internal Controls Evaluation</p>
+              <p className="text-sm text-gray-600">General ledger management, Budgeting and forecasting, Financial Planning & Analysing (FP&A)</p>
+            </div>
+            <div>
+              <h4 className="flex items-center gap-2 text-lg font-medium">
+             Working capital management
+              </h4>
+              <p className="text-sm text-gray-600">Fixed asset management, inventory valuation, revenue recognition (IFRS 15), lease accounting (IFRS 16) and expected credit loss (IFRS 9)</p>
             </div>
             <div>
               <h4 className="flex items-center gap-2 text-lg font-medium">
