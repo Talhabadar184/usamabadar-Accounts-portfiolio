@@ -77,7 +77,7 @@ function Home() {
   const stats1 = [
     {
       icon: <FaBrain />,
-      number: "4",
+      number: "4+",
       label: "Years Experience",
       color: "from-purple-400 to-pink-500",
       target: "resume",

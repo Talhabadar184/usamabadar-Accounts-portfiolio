@@ -28,7 +28,6 @@ import { useState } from "react";
 const mahmoodProjects = [
   {
     title: "Beyond East (Masood Retail Pvt. Ltd.) – Retail",
-    subtitle: "Statutory Audit - Annual",
     image: be,
     description: `
       • Managed the complete finance and accounting function for a multi-brand retail business, ensuring accurate financial reporting and compliance with IFRS and statutory requirements.\n
@@ -43,7 +42,6 @@ const mahmoodProjects = [
   },
   {
     title: "Passion Foods Pvt. Ltd. – Food & Beverage (Subway Franchise & Bakery Operations)",
-    subtitle: "Statutory Audit - Annual",
     image: passion,
     description: `
       • Managed finance operations for a food and beverage business operating Subway franchise restaurants and bakery outlets, ensuring accurate accounting and financial compliance.\n
@@ -58,7 +56,6 @@ const mahmoodProjects = [
   },
   {
     title: "MG Agri Foods Pvt. Ltd. – Agricultural Exports",
-    subtitle: "Statutory Audit - Annual",
     image: mg,
     description: `
       • Managed accounting and financial operations for an agricultural export business dealing in seasonal produce, ensuring compliance with financial reporting and export documentation requirements.\n

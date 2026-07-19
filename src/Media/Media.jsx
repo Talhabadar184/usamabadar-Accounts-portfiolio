@@ -3,49 +3,67 @@ import pic from "../assets/Media/1.jpeg";
 
 function Media() {
   return (
-    <div id="media" className="flex flex-col items-center justify-center min-h-screen p-6">
-      
-      {/* Section Heading */}
-      <div className="mb-12">
-        <h1 className="text-3xl font-bold text-blue-700">Featured</h1>
+    <section
+      id="media"
+      className="flex flex-col items-center justify-center min-h-screen px-6 md:px-16 py-20 bg-[#FAFAF8]"
+    >
+      {/* Eyebrow + Heading */}
+      <div className="mb-14 text-center">
+        <span className="text-xs tracking-[0.25em] uppercase text-[#C9A227] font-semibold">
+          In the Press
+        </span>
+        <h1 className="mt-3 text-4xl md:text-5xl font-serif font-bold text-[#1B4332]">
+          Featured
+        </h1>
+        <div className="mt-4 mx-auto h-[2px] w-14 bg-[#C9A227]" />
       </div>
 
       {/* Main Card */}
-      <div className="bg-gray-200 rounded-2xl shadow-lg p-6 flex flex-col md:flex-row items-center md:items-start max-w-2xl w-full text-center md:text-left space-y-6 md:space-y-0 md:space-x-8">
-        
+      <div className="group relative bg-white rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_40px_rgba(0,0,0,0.1)] transition-shadow duration-300 p-8 md:p-14 flex flex-col md:flex-row items-center md:items-start w-full max-w-7xl text-center md:text-left gap-10 md:gap-16 border border-[#EDEDE8]">
+
         {/* Left Image */}
-        <img
-          src={pic}
-          alt="Usama Badar"
-          className="rounded-lg w-64 h-64 object-cover bg-gray-200"
-        />
+        <div className="relative shrink-0">
+          <img
+            src={pic}
+            alt="Usama Badar"
+            className="rounded-xl w-64 h-64 md:w-96 md:h-96 object-cover ring-1 ring-[#1B4332]/10"
+          />
+          <span className="absolute -bottom-3 -right-3 bg-[#1B4332] text-[#C9A227] text-xs tracking-wide uppercase font-semibold px-4 py-2 rounded-full shadow-md">
+            Featured
+          </span>
+        </div>
 
         {/* Right Content */}
-        <div className="flex flex-col justify-center md:justify-start w-full md:w-1/2">
-          <h1 className="text-2xl font-bold text-green-700 mb-2">
-            Nearpeer's <span className="bg-green-200 px-2 py-1 rounded">CAF</span> Qualified Star
-          </h1>
+        <div className="flex flex-col justify-center w-full md:pt-4">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#1B4332] leading-snug">
+            Nearpeer's{" "}
+            <span className="bg-[#C9A227]/15 text-[#8a6d15] px-2 py-0.5 rounded-md">
+              CAF
+            </span>{" "}
+            Qualified Star
+          </h2>
 
-          <h2 className="text-lg text-gray-700 font-semibold">Usama Badar</h2>
+          <h3 className="mt-3 text-lg md:text-xl font-medium text-gray-600">
+            Usama Badar
+          </h3>
 
-          <p className="mt-4 text-sm text-gray-500">
+          <p className="mt-6 text-base text-gray-500 leading-relaxed max-w-md mx-auto md:mx-0">
             Featured in CA Online by Nearpeer.
             <br />
             Apni manzil ki taraf rawan dawan 🥰😇
           </p>
-
-          <a
-          href="https://www.facebook.com/watch/?v=634959834358652"
+          <a          
+            href="https://www.facebook.com/watch/?v=634959834358652"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-full sm:w-16 md:w-16 bg-gray-500 mt-6 text-white py-2 px-4 rounded border border-blue-700 hover:bg-blue-700 transition"
+            className="inline-flex items-center justify-center gap-2 mt-8 w-fit mx-auto md:mx-0 bg-[#1B4332] text-white text-sm font-medium py-3 px-8 rounded-md transition-all duration-200 hover:bg-[#143526] hover:gap-3"
           >
-            View
+            View Feature
+            <span className="transition-transform duration-200 group-hover:translate-x-0.5">→</span>
           </a>
         </div>
       </div>
-
-    </div>
+    </section>
   );
 }
 

@@ -345,12 +345,22 @@ const Entry = ({ date, role,logo, children, isLast }) => (
           <p className="text-blue-700 text-sm font-medium mt-0.5">{role}</p>
 
       <p className="text-blue-700 text-sm font-medium">{date}</p>
-              <img src={logo}  className="w-42 h-22 object-cover rounded-full mt-7" />
+              <img src={logo}  className="w-42 h-26 object-fill mt-7" />
 
     </div>
     <div className="text-sm text-gray-600 leading-relaxed mt-1 sm:mt-0">{children}</div>
   </div>
 );
+ const Entryforedu = ({ date, role,  children, isLast }) => (
+    <div className={`grid grid-cols-1 sm:grid-cols-[190px_1fr] gap-1 sm:gap-6 py-4 sm:py-5 ${!isLast ? "border-b border-gray-200" : ""}`}>
+      <div>
+            <p className="text-blue-700 text-sm font-medium mt-0.5">{role}</p>
+
+        <p className="text-blue-700 text-sm font-medium">{date}</p>
+      </div>
+      <div className="text-sm text-gray-600 leading-relaxed mt-1 sm:mt-0">{children}</div>
+    </div>
+  );
 
 const SectionBlock = ({ title, children }) => (
   <div className="border border-gray-200 rounded-xl p-4 sm:p-8 mb-6 sm:mb-8">
@@ -376,12 +386,12 @@ const Resume = () => (
       </SectionBlock>
 
     <SectionBlock title="Education">
-      {education.map((e, i) => (
-        <Entry key={i} role={e.role} date={e.date} isLast={i === education.length - 1}>
-          <p>{e.desc}</p>
-        </Entry>
-      ))}
-    </SectionBlock>
+        {education.map((e, i) => (
+          <Entryforedu key={i} role={e.role} date={e.date} isLast={i === education.length - 1}>
+            <p>{e.desc}</p>
+          </Entryforedu>
+        ))}
+      </SectionBlock>
 
     {/* <SectionBlock title="Skills & Expertise">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-x-12">
